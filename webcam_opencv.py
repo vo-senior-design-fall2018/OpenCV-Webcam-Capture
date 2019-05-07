@@ -1,7 +1,10 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
+url = 'https://192.1168.91.79:8081/live'
+cap = cv2.VideoCapture(url)
+
 
 while(True):
     # Capture frame-by-frame
